@@ -1,7 +1,6 @@
 package com.example.counter.ui
 
 import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue

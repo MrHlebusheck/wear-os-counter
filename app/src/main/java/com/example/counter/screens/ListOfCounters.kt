@@ -71,8 +71,12 @@ fun ListOfCountersScreen(navController: NavHostController, counterViewModel: Cou
         state = listState,
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        item{
-            Text("Welcome to Counters", textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
+        item {
+            Text(
+                "Welcome to Counters",
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth()
+            )
         }
         counters.forEach {
             item(key = it.id) {

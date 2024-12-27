@@ -35,7 +35,7 @@ fun CounterValue(value: Int, target: Int? = null) {
                 size = it
             },
             numberColor = if (value == target) MaterialTheme.colors.secondary
-            else if (target!=null && value > target) MaterialTheme.colors.error
+            else if (target != null && value > target) MaterialTheme.colors.error
             else MaterialTheme.colors.onPrimary
         )
         if (target != null) {

@@ -49,7 +49,11 @@ fun CounterTitleItem(counter: Counter, clickableFun: () -> Unit) {
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
-            Text(text = counter.value.toString(), modifier = Modifier.weight(1f), textAlign = TextAlign.End)
+            Text(
+                text = counter.value.toString(),
+                modifier = Modifier.weight(1f),
+                textAlign = TextAlign.End
+            )
         }
         if (counter.target != null) {
             LinearProgressIndicator(
@@ -64,17 +68,19 @@ fun CounterTitleItem(counter: Counter, clickableFun: () -> Unit) {
 
 @Composable
 @Preview
-fun TitlePreview1(){
-    CounterTitleItem(Counter("Preview", 15), ) { }
+fun TitlePreview1() {
+    CounterTitleItem(Counter("Preview", 15)) { }
 }
+
 @Composable
 @Preview
-fun TitlePreview2(){
-    CounterTitleItem(Counter("Preview", 15, 1, 45),) { }
+fun TitlePreview2() {
+    CounterTitleItem(Counter("Preview", 15, 1, 45)) { }
 }
+
 @Composable
 @Preview
-fun TitlePreview3(){
-    CounterTitleItem(Counter("Very long preview ".repeat(5), 15, 1, 45),) { }
+fun TitlePreview3() {
+    CounterTitleItem(Counter("Very long preview ".repeat(5), 15, 1, 45)) { }
 }
 
