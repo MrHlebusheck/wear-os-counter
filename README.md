@@ -13,11 +13,12 @@ Perfect for counting anything: repetitions, points, cups of water - whatever you
 - **Bezel support** - adjust counters by rotating the bezel.
 
 ## Screenshots and video
-![[Screenshot_20250815_110724_counter.png]]
-![[Screenshot_20250815_110742_counter.png]]
-![[Screenshot_20250815_110733_counter.png]]
-![[Screenshot_20250815_110738_counter.png]]
-![[video.mp4]]
+![Start screen](https://github.com/MrHlebusheck/wear-os-counter/blob/master/media/Screenshot_20250815_110724_counter.png?raw=true)
+![Counter with goal](https://github.com/MrHlebusheck/wear-os-counter/blob/master/media/Screenshot_20250815_110742_counter.png?raw=true)
+![Counter](https://github.com/MrHlebusheck/wear-os-counter/blob/master/media/Screenshot_20250815_110733_counter.png?raw=true)
+![Counter's settings](https://github.com/MrHlebusheck/wear-os-counter/blob/master/media/Screenshot_20250815_110738_counter.png?raw=true)
+
+![bezel](https://github.com/user-attachments/assets/59dca413-2d70-4b19-9469-5a60837bef45)
 
 ## Installation
 See the [installation guide via ADB](INSTALL.md)
